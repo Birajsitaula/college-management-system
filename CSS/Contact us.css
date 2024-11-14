@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap");
+
+.formBoxContainer {
+  margin: 40px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+}
+.formBox {
+  padding: 10px;
+  text-align: center;
+  height: 50%;
+  width: 40%;
+  background: #c5e4f085;
+  border-radius: 30px;
+  backdrop-filter: blur(10px);
+  margin-right: 5%;
+}
+h2 {
+  padding-bottom: 10px;
+}
+.formBox p {
+  margin: 0;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1em;
+}
+form {
+  padding: 10px;
+}
+form > div {
+  padding: 10px;
+  position: relative;
+  font-size: 1em;
+}
+form > div i {
+  position: absolute;
+  top: 22px;
+  margin-left: 10px;
+  opacity: 0.6;
+}
+form > div input {
+  height: 2em;
+  width: 70vw;
+  padding-left: 40px;
+  font-size: 1em;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid #b5adad;
+  background-color: #f1f1f1;
+}
+div > input:focus {
+  border: 1px solid #6f6a6a;
+}
+form > div:hover > i {
+  opacity: 1;
+  transition: opacity 1s;
+}
+textarea {
+  border: none;
+  width: 70vw;
+  border-radius: 15px;
+  padding: 10px;
+  outline: auto;
+  font-size: 1em;
+}
+.submitBtn button {
+  width: 20%;
+  height: 5vh;
+  color: #ffffff;
+  margin-left: 0px;
+  background: #00d689;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+iframe {
+  height: 75vh;
+  width: 40vw;
+}
+@media screen and (min-width: 900px) {
+  form > div input {
+    width: 20vw;
+  }
+
+  textarea {
+    width: 30vw;
+  }
+}

@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Container styles */
+.formBoxContainer {
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Quicksand", sans-serif;
+  height: 100vh;
+  background-color: white;
+}
+.formBox {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.712);
+}
+.formBox h1{
+  margin-top: 10px;
+  padding-bottom: 20px;
+  justify-content: center;
+  text-align: center;
+}
+/* Form styles */
+.form-label{
+  margin-bottom: 5px;
+  padding-left: 15px;
+  display: block;
+  font-weight: bold;
+}
+form > div {
+  padding: 10px;
+  position: relative;
+  font-size: 1em;
+}
+form > div i {
+  position: absolute;
+  top: 45px;
+  margin-left: 10px;
+  opacity: 0.6;
+}
+.input_box i.pw_hide {
+  right: 40px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.input_box>input{
+  height: 2em;
+  width: 80%;
+  padding-left: 40px;
+  font-size: 1em;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #b5adad;
+  background-color: white;
+}
+div > input:focus {
+  border: 1px solid #6f6a6a;
+}
+form > div:hover > i {
+  opacity: 1;
+  transition: opacity 1s;
+}
+/* Category select styles */
+.category_select>label{
+  margin-left: 15px;
+  font-weight: bold;
+}
+.category_select select {
+  width: 40%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+/* Option field styles */
+.option_field {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.option_field>a{
+    color: #007bff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+.option_field>a:hover{
+text-decoration: underline;
+}
+.checkbox {
+    margin-right: 10px;
+}
+
+.checkbox input[type="checkbox"] {
+    margin-right: 5px;
+}
+/* Button styles */
+.button {
+  display: block;
+  width: 35%;
+  margin-left:100px;
+  height: 5vh;
+  color: #ffffff;
+  background: #007bff;
+  outline: none;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size:1em;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+/* Signup link styles */
+.login_signup {
+  text-align: left;
+  margin: 10px;
+  font-weight: 500;
+}
+.login_signup a {
+  margin-left:20px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.login_signup a:hover {
+  text-decoration: underline;
+}
+

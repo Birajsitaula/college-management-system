@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #fdfafae3 !important;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  background-color:#c4fdf6;
+  padding: 5px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-brand {
+  font-size: 24px;
+  font-weight:800;
+  text-decoration: none;
+  color: #000;
+}
+.navbar-menu {
+  display: flex;
+  font-size: 24px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar-menu li {
+  margin-right: 15px;
+}
+.navbar-menu li:last-child {
+  margin-right: 0;
+}
+.navbar-menu li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 800;
+}
+.navbar-menu li a:hover {
+  color: #555;
+}
+.navbar-action {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+}
+.navbar-action li {
+  margin-right: 15px;
+
+}
+.navbar-action li:last-child {
+  margin-right: 0;
+  margin-top: 15%;
+}
+.navbar-action li a {
+  text-decoration: none;
+  color: #000;
+}
+.navbar-action li a:hover {
+  color: #555;
+}
+
+
+/*****************************
+    Login Form
+******************************/
+.form-login{
+    bottom: 45%!important;
+}
+
+
+.carousel-item {
+  width: 100%;
+  height: 100vh!important;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel-item::before {
+  content: '';
+  background-color: rgba(12, 11, 10, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.carousel-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  top: 40%;
+  left: 0;
+  right: 0;
+}
+
+
+
+.carousel-caption h5 {
+  color: #fff;
+  margin-bottom: 10px;
+  font-size: 42px;
+  font-weight: 700;
+  width: 80%;
+  margin: 0px auto 30px auto;
+}
+
+.carousel-caption p {
+  
+  font-size: 20px;
+  width: 80%;
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+  margin: 0px auto 30px auto;
+}
+
+
+@media(max-width:768px){
+  .carousel-caption h5 {
+    font-size: 38px;
+  }
+}
+@media(max-width:577px){
+  .carousel-caption h5 {
+    font-size: 25px;
+    
+  }
+  .carousel-caption p {
+    font-size: 13px;
+  }
+  
+}
+
+.course .box {
+  padding: 10px 10px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.3s;
+}
+.course .box img{
+  border-radius: 5px;
+}
+.course .box span {
+  display: block;
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffcf88;
+}
